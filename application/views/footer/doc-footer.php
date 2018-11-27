@@ -7,4 +7,20 @@
 <script src="<?php echo base_url()?>/templates/js/custom.js"></script>
 </body>
 
+<script type="text/javascript">
+	$(function () { 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) { 
+            $('.logo_container img').attr('src','<?php echo base_url()?>/templates/images/logo/logo_yellow3.png');
+            $('.logo_container img').css({ 'width':"150px", "transition": "width 0.2s"});
+
+        }
+        if ($(this).scrollTop() < 100) { 
+            $('.logo_container img').attr('src','<?php echo base_url()?>/templates/images/logo/logo_yellow.png');
+            $('.logo_container img').css({ 'width':"100px", "transition": "width 0.2s"});
+        }
+    })
+});
+</script>
+
 </html>

@@ -15,8 +15,8 @@
           <div class="main_slider_content">
             <h5>Find the perfect pair of glasses<br/>in the comfort of your home with our no risk home try-on.</h5>
             <h2>Stylish Children's Glasses</h2>
-            <div class="red_button slider_button"><a href="#">try on glasses at home</a></div>
             <div class="red_button slider_button"><a href="#">shop kids glasses</a></div>
+            <div class="red_button slider_button"><a href="#">shop kids sunglasses</a></div>
           </div>
         </div>
       </div>
@@ -32,22 +32,22 @@
           <div class="banner_item align-items-center" style="background-image:url(<?php echo base_url()?>/templates/images/girl.jpg)">
           </div>
           <div class="banner_button">
-            <a href="#">Shop Girls Glasses</a>
+            <a href="#">Shop Girls</a>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="banner_item align-items-center" style="background-image:url(<?php echo base_url()?>/templates/images/banner_2.jpg)">
-          </div>
-          <div class="banner_button">
-            <a href="#">Try On Glasses At Home</a>
-          </div>
-
         </div>
         <div class="col-md-4">
           <div class="banner_item align-items-center" style="background-image:url(<?php echo base_url()?>/templates/images/boy.jpg)">
           </div>
           <div class="banner_button">
-            <a href="#">Shop Boys Glasses</a>
+            <a href="#">Shop Boys</a>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="banner_item align-items-center" style="background-image:url(<?php echo base_url()?>/templates/images/banner_2.jpg)">
+          </div>
+          <div class="banner_button">
+            <a href="#">Shop Sunglasses</a>
           </div>
 
         </div>
@@ -73,7 +73,7 @@
             <div class="product-item men">
               <div class="product discount product_filter">
                 <div class="product_image">
-                  <img src="<?php echo base_url()?>/templates/images/headshot/denver.jpg" alt="">
+                  <img src="<?php echo base_url()?>/templates/images/headshot/Denver.jpg" alt="">
                 </div>
                 <div class="favorite favorite_right"></div>
                 <div class="product_info">
@@ -89,7 +89,7 @@
             <div class="product-item women">
               <div class="product product_filter">
                 <div class="product_image">
-                  <img src="<?php echo base_url()?>/templates/images/headshot/eugene.jpg" alt="">
+                  <img src="<?php echo base_url()?>/templates/images/headshot/Eugene.jpg" alt="">
                 </div>
                 <div class="favorite"></div>
                 <div class="product_info">
@@ -105,7 +105,7 @@
             <div class="product-item women">
               <div class="product product_filter">
                 <div class="product_image">
-                  <img src="<?php echo base_url()?>/templates/images/headshot/jarrod.jpg" alt="">
+                  <img src="<?php echo base_url()?>/templates/images/headshot/Jarrod.jpg" alt="">
                 </div>
                 <div class="favorite"></div>
                 <div class="product_info">
@@ -121,7 +121,7 @@
             <div class="product-item accessories">
               <div class="product product_filter">
                 <div class="product_image">
-                  <img src="<?php echo base_url()?>/templates/images/headshot/lachlan.jpg" alt="">
+                  <img src="<?php echo base_url()?>/templates/images/headshot/Lachlan.jpg" alt="">
                 </div>
                 <div class="favorite favorite_left"></div>
                 <div class="product_info">
@@ -137,7 +137,7 @@
             <div class="product-item women men">
               <div class="product product_filter">
                 <div class="product_image">
-                  <img src="<?php echo base_url()?>/templates/images/headshot/madison.jpg" alt="">
+                  <img src="<?php echo base_url()?>/templates/images/headshot/Madison.jpg" alt="">
                 </div>
                 <div class="favorite"></div>
                 <div class="product_info">
@@ -153,7 +153,7 @@
             <div class="product-item accessories">
               <div class="product discount product_filter">
                 <div class="product_image">
-                  <img src="<?php echo base_url()?>/templates/images/headshot/olive.jpg" alt="">
+                  <img src="<?php echo base_url()?>/templates/images/headshot/Olive.jpg" alt="">
                 </div>
                 <div class="favorite favorite_left"></div>
                 <div class="product_info">

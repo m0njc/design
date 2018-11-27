@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-lg-12 text-right">
             <div class="logo_container">
-              <img src="<?php echo base_url()?>/templates/images/logo/logo_yellow3.png" />
+              <img src="<?php echo base_url()?>/templates/images/logo/logo_yellow.png" />
             </div>
             <nav class="navbar">
               <ul class="navbar_menu">

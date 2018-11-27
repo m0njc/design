@@ -42,6 +42,16 @@ COLOR PALETTE
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
 
+@font-face {
+    font-family: Archia;
+    src: url('../fonts/Archia/Archia-Regular.otf');
+}
+
+@font-face {
+    font-family: Weekly;
+    src: url('../fonts/Weekly/WeeklyLight.otf');
+}
+
 /*********************************
 2. Body and some general stuff
 *********************************/
@@ -53,7 +63,7 @@ COLOR PALETTE
 }
 body
 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif, 'Archia', 'Weekly';
 	font-size: 14px;
 	line-height: 23px;
 	font-weight: 400;
@@ -556,8 +566,9 @@ section
 {
 	display: block;
 	color: #1e1e27;
-	font-size: 13px;
-	font-weight: 500;
+	font-family: Weekly;
+	letter-spacing: 0.5px;
+	font-weight: bold;
 	text-transform: uppercase;
 	padding: 20px;
 	-webkit-transition: color 0.3s ease;
@@ -816,8 +827,16 @@ section
 }
 .logo_container img
 {
-	width: 150px;
+	width: 100px;
+	margin: 0px 0px 0px 50px;
 }
+
+.logo_container img .img-scrolled
+{
+	width: 150px;
+	margin: 0px;
+}
+
 
 /*********************************
 3.7 Main Slider
@@ -1179,7 +1198,10 @@ section
 .add_to_cart_button a
 {
 	font-size: 12px;
-	font-weight: 600;
+	font-weight: bold;
+	font-family: Weekly;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 .product-item:hover .add_to_cart_button
 {
@@ -1719,9 +1741,11 @@ section
 }
 
 .slider_button {
-	width: 200px;
+	width: 180px;
 	padding: 10px;
 	margin-bottom: 20px;
+	font-family: Weekly;
+	letter-spacing: 1px;
 }
 
 .banner_button
@@ -1735,7 +1759,9 @@ section
 .banner_button a
 {
 	color: #222222;
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	font-family: Weekly;
+	font-weight: bold;	
 }
 
 .video { position:relative; }
@@ -1915,4 +1941,10 @@ section
 
 .photo-section h4 {
 	margin-top: 70px;
+}
+
+.input-group-btn, .newsletter_submit_btn, h2, h3, h4  {
+	font-family: Weekly;
+	letter-spacing: 1px;
+	font-weight: bold;
 }
