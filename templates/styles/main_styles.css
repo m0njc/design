@@ -1047,6 +1047,8 @@ section
 	width: 23%;
 	height: 460px;
 	cursor: pointer;
+}
+.new_arrivals .product-item {
 	margin: 0 10px;
 }
 .product-item::after

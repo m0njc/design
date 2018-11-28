@@ -1247,11 +1247,6 @@ section
 	content: '\f00c';
 	color: #FFFFFF;
 }
-.checkboxes
-{
-	height: 200px;
-	overflow: hidden;
-}
 .checkboxes.active
 {
 	height: auto;

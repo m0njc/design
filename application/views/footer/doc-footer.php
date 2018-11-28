@@ -5,6 +5,8 @@
 <script src="<?php echo base_url()?>/templates/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="<?php echo base_url()?>/templates/plugins/easing/easing.js"></script>
 <script src="<?php echo base_url()?>/templates/js/custom.js"></script>
+<script src="<?php echo base_url()?>/templates/plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="<?php echo base_url()?>/templates/js/categories_custom.js"></script>
 </body>
 
 <script type="text/javascript">
