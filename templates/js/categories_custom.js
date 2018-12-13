@@ -424,9 +424,17 @@ jQuery(document).ready(function($)
     			{
     				if(box.hasClass('active'))
     				{
+    					box.find('i').removeClass('fa-square');
     					box.find('i').addClass('fa-square-o');
     					box.toggleClass('active');
     				}
+    				else
+    				{
+    					box.find('i').removeClass('fa-square-o');
+    					box.find('i').addClass('fa-square');
+    					box.toggleClass('active');
+    				}
+    				// box.toggleClass('active');
     			});
     		});
 

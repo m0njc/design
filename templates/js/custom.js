@@ -53,6 +53,7 @@ jQuery(document).ready(function($)
 	initFavorite();
 	initFixProductBorder();
 	initIsotopeFiltering();
+	initIsotopeDropdown();
 	initSlider();
 
 	/* 
@@ -422,6 +423,27 @@ jQuery(document).ready(function($)
     				slider1.trigger('next.owl.carousel');
     			});
     		}
+    	}
+    }
+
+
+    function initIsotopeDropdown()
+    {
+		$('.new_arrivals_sorting #price').hide();
+		$('.new_arrivals_sorting #model').show();
+    	if($('.dropdown_isotope').length)
+    	{
+    		$('.dropdown_isotope').click(function()
+	    	{
+	    		$('.new_arrivals_sorting #price').hide();
+	    		$('.new_arrivals_sorting #model').hide();
+	    		var x = this.children[0].getAttribute('value');
+	    		var sel = ".new_arrivals_sorting #"+x;
+	    		$(sel).show();
+
+		        
+		         return false;
+		    });
     	}
     }
 });
